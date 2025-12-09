@@ -1,0 +1,27 @@
+# Binaries
+bin/
+*.exe
+
+# Auth files (sensitive - stored in user home)
+# ~/.cli-proxy-api/
+
+# Temp files
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Old EasyCLI files
+EasyCLI*.exe
+6.5.57/
+static/
+version.txt
+
+# IDE
+.vscode/
+.idea/
+
+# Keep config but not credentials
+# config.yaml is tracked, but secret-key should be plaintext template
