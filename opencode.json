@@ -1,0 +1,24 @@
+﻿{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "myprovider": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Antigravity - CLIProxyAPI",
+      "options": {
+        "baseURL": "http://localhost:8317/v1",
+        "apiKey": "tuyen"
+      },
+      "models": {
+        "gemini-2.5-flash": { "name": "Gemini 2.5 Flash" },
+        "gemini-2.5-flash-lite": { "name": "Gemini 2.5 Flash Lite" },
+        "gemini-3-pro-preview": { "name": "Gemini 3 Pro Preview" },
+        "gemini-3-pro-image-preview": { "name": "Gemini 3 Pro Image" },
+        "gemini-claude-sonnet-4-5": { "name": "Claude Sonnet 4.5" },
+        "gemini-claude-sonnet-4-5-thinking": { "name": "Claude Sonnet 4.5 (Thinking)" },
+        "gemini-claude-opus-4-5-thinking": { "name": "Claude Opus 4.5 (Thinking)" },
+        "gemini-2.5-computer-use-preview-10-2025": { "name": "Gemini Computer Use" },
+        "gpt-oss-120b-medium": { "name": "GPT-OSS 120B" }
+      }
+    }
+  }
+}
